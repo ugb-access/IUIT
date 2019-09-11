@@ -44,7 +44,7 @@ a {
 }
 /* Styling */
 header {
-    background: url("img/banner-bg-1.png");
+    background: url("img/banner-bg-1-min.png");
     background-position: left bottom;
     background-repeat: no-repeat;
 }
@@ -123,7 +123,6 @@ nav {
 .showcase-info > p {
     font-weight: 400;
     font-size: 18px;
-    padding-bottom: 30px;
 }
 .showcase-info > button {
     margin-top: 30px;
