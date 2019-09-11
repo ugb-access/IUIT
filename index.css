@@ -1,0 +1,128 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+/* Basic tag styling */
+h1,h2,h3,p {
+    padding-bottom: 12px;
+}
+a {
+    color: #51718c;
+    text-decoration: none;
+}
+/* Utility Classes */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.btn-primary {
+    background-color: #FF5D00;
+    color: #fff;
+}
+.btn-outline-primary {
+    background: transparent;
+    border: 1px solid #FF5D00;
+    color: #51718c;
+}
+.btn-outline-primary:hover {
+    background-color: #FF5D00;
+    color: #fff;
+}
+.primary {
+    color: #FF5D00;
+}
+/* Styling */
+header {
+    background: url("img/banner-bg-1.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+nav {
+    
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+}
+#logo {
+    font-weight: 400;
+}
+#logo > a {
+    color: #FF5D00;
+}
+.nav-bar {
+   list-style: none;
+   display: flex;
+   align-items: center;
+}
+.nav-bar > li > a {
+    display: block;
+    padding: 4px 15px;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+
+}
+.nav-bar > li:hover > a, .nav-bar > li.current > a {
+    color: #FF5D00;
+}
+.nav-bar > li:hover > a:after, .nav-bar > li.current > a:after  {
+    width: 22px;
+}
+.nav-bar > li > a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    width: 0px;
+    border-bottom: 2px solid #FF5D00;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+}
+
+.showcase {
+    height: 90vh;
+    padding-top: 20px;
+}
+.showcase > article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.showcase-info {
+    margin-right: 20px;
+}
+.showcase-heading {
+    font-size: 36px;
+    font-weight: 300;
+    color: #3b566e;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+.showcase-info > p {
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.showcase-info > button {
+    margin-top: 30px;
+}
