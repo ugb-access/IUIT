@@ -58,10 +58,11 @@ nav {
     background-color: transparent;
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding: 20px 50px 10px 50px;
     position: sticky;
     top: 0;
 }
+
 #logo {
     font-weight: 400;
 }
