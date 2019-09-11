@@ -110,6 +110,7 @@ nav {
     justify-content: space-between;
 }
 .showcase-info {
+    width: 50%;
     margin-right: 20px;
 }
 .showcase-heading {
@@ -126,4 +127,13 @@ nav {
 }
 .showcase-info > button {
     margin-top: 30px;
+}
+.showcase-img {
+    width: 40%;
+    max-width: 50%;
+    min-width: 30%;
+}
+.showcase-img > img {
+    display: block;
+    width: 100%;
 }
