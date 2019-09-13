@@ -121,6 +121,8 @@ nav {
 .showcase {
     height: 90vh;
     padding-top: 100px;
+    display: flex;
+    align-items: center;
 }
 .showcase > article {
     display: flex;
@@ -161,11 +163,7 @@ nav {
     margin-bottom: 45px;
     width: 50%;
 }
-.sec-img {
-    display: block;
-    max-width: 100%;
-    margin-bottom: 30px;
-}
+
 .sec-heading {
     font-size: 36px;
     font-weight: 300;
@@ -242,7 +240,6 @@ nav {
     color: #3b566e;
     font-weight: 400;
     line-height: 1.4em;
-    
 }
 .form-sec h2::after {
     display: block;
