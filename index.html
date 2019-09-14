@@ -7,20 +7,27 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
     <title>IUIT | Inspire Uplift IT services</title>
-
-    
 </head>
 <body>
     <header>
         <nav id="nav">
-            <h2 id="logo"><a href="#">IUIT</a></h2>
+            <h2 id="logo"><a href="index.html">IUIT</a></h2>
                 <ul class="nav-bar">
                     <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="index.html">Features</a></li>
-                    <li><a href="index.html">Contact Us</a></li>
-                    <li><a href="index.html">About</a></li>
+                    <li class="services"><a href="index.html">Services</a>
+                        <ul class="drop-down">
+                            <li><a href="./pages/services/web.html">Web development</a></li>
+                            <li><a href="./pages/services/customer-service.html">Customer Support</a></li>
+                            <li><a href="./pages/services/mobile.html">Mobile Development</a></li>
+                            <li><a href="./pages/services/book-keeping.html">Book Keeping</a></li>
+                            <li><a href="./pages/services/software.html">Software development</a></li>
+                            <li><a href="./pages/services/project-managment.html">Project Managment</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./pages/contact-us.html">Contact Us</a></li>
+                    <li><a href="./pages/about-us.html">About</a></li>
                     <li>
-                        <button class="btn btn-primary" href="index.html">Get Quote</button>
+                        <button class="btn btn-primary" onclick="openWindow()">Get Quote</button>
                     </li>
                 </ul>
         </nav>
@@ -28,19 +35,20 @@
             <section class="showcase">
                 <article>
                     <div class="showcase-info">
-                        <p class="pr`imary">
-                            E-Commerce Solution
+                        <p class="primary">
+                            IT & Asset finance company
                         </p>
                         <h1 class="showcase-heading">
-                            Give yourself the best chance of success with All Rights Reserved
+                            We build powerful digital
+                            solutions and experiences.
                         </h1>
                         <p>
-                            Sulation is an easy to use tool for eCommerce. With the help of our system you can present your products. It is all very easy!
+                            Since 2007, companies around the world have relied on our technical expertise to develop their vision. From digital applications to insightful data solutions, we build it all with precision to engage your users and supercharge your business. We’re the perfect technology partner for enterprise to rapidly growing organizations ready to make an impact.
                         </p>
-                        <button class="btn btn-outline-primary">Request a demo</button>
+                        <button class="btn btn-outline-primary" onclick="openWindow()">Request a demo</button>
                     </div>
                     <div class="showcase-img">
-                        <img src="img/showcase-img.png" alt="It solutions img">
+                        <img src="img/showcase-img-min.png" alt="It solutions img">
                     </div>
                 </article>
             </section>
@@ -50,61 +58,71 @@
         <article class="container">
             <div class="sec-title">
                 <div>
-                    <img src="img/services.svg" width="80"  alt="">
+                    <img src="img/services.svg" width="70"  alt="">
                 </div>
-                <h2 class="sec-heading">Your e-commerce service is precious we know that,
-                        So we make this app like this.
+                <h2 class="sec-heading">We take care of all the technology so you can focus on what you do best
                 </h2>
-                <p>Sulation is an easy to use tool for eCommerce. With the help of our
-                    system you can present your products. It is all very easy!
+                <p>Our team of 400+ experienced software engineers, developers, UX architects, and designers like to produce impactful software. We create software that is used by millions of users, in sectors spanning Education, Technology, Healthcare, Travel and beyond.
                 </p>
             </div>
                 <ul class="cards">
                     <li class="card">
-                        <img src="img/icon-1.png" alt="Service icons" class="sec-img"/>
+                        <div>
+                            <img src="img/web-programming.svg" width="50" alt="">
+                        </div>
                         <p class="card-heading">Web Development</p>
-                        <p class="card-para">Solution is an easy to use tool all very easy! eCommerce. With the help of our system you can present</p>
-                        <a href="index.html">SEE MORE 
+                        <p class="card-para">Our web development team creates intuitive user experiences wrapped up in beautiful designs. </p>
+                        <a href="./pages/services/web.html">SEE MORE 
                             <span><i class="fa fa-arrow-alt-circle-right"></i></span>
                         </a>
                     </li>
                     <li class="card">
-                        <img src="img/icon-1.png" alt="Service icons" class="sec-img"/>
+                        <div>
+                            <img src="img/support.svg" width="50" alt="">
+                        </div>
                         <p class="card-heading">Customer Support</p>
                         <p class="card-para">Solution is an easy to use tool all very easy! eCommerce. With the help of our system you can present</p>
-                        <a href="index.html">SEE MORE 
+                        <a href="./pages/services/customer-service.html">SEE MORE 
                             <span><i class="fa fa-arrow-alt-circle-right"></i></span>
                         </a>
                     </li>
                     <li class="card">
-                        <img src="img/icon-1.png" alt="Service icons" class="sec-img"/>
+                        <div>
+                            <img src="img/mobile-app.svg" width="50" alt="">
+                        </div>
                         <p class="card-heading">Mobile Development</p>
-                        <p class="card-para">Solution is an easy to use tool all very easy! eCommerce. With the help of our system you can present</p>
-                        <a href="index.html">SEE MORE 
+                        <p class="card-para">Our team builds nimble and elegant apps for all smartphone platforms. </p>
+                        <a href="./pages/services/mobile.html">SEE MORE 
                             <span><i class="fa fa-arrow-alt-circle-right"></i></span>
                         </a>
                     </li>
                     <li class="card">
-                        <img src="img/icon-1.png" alt="Service icons" class="sec-img"/>
+                        <div>
+                            <img src="img/book-keeping.svg" width="55" alt="">
+                        </div>
                         <p class="card-heading">Book Keeping</p>
-                        <p class="card-para">Solution is an easy to use tool all very easy! eCommerce. With the help of our system you can present</p>
-                        <a href="index.html">SEE MORE 
+                        <p class="card-para">At IUIT, we create ease for our clients by taking away all their accounting hassles. </p>
+                        <a href="./pages/services/book-keeping.html">SEE MORE 
                             <span><i class="fa fa-arrow-alt-circle-right"></i></span>
                         </a>
                     </li>
                     <li class="card">
-                        <img src="img/icon-1.png" alt="Service icons" class="sec-img"/>
+                        <div>
+                            <img src="img/software-dev.svg" width="50" alt="">
+                        </div>
                         <p class="card-heading">Software Development</p>
-                        <p class="card-para">Solution is an easy to use tool all very easy! eCommerce. With the help of our system you can present</p>
-                        <a href="index.html">SEE MORE 
+                        <p class="card-para">Rapidly and reliably build great software products to amaze your customers.</p>
+                        <a href="./pages/services/software.html">SEE MORE 
                             <span><i class="fa fa-arrow-alt-circle-right"></i></span>
                         </a>
                     </li>
                     <li class="card">
-                            <img src="img/icon-1.png" alt="Service icons" class="sec-img"/>
+                        <div>
+                            <img src="img/project.svg" width="50" alt="">
+                        </div>
                             <p class="card-heading">Project Managment</p>
-                            <p class="card-para">Solution is an easy to use tool all very easy! eCommerce. With the help of our system you can present</p>
-                            <a href="index.html">SEE MORE 
+                            <p class="card-para">Get your project on the path to success right from the start.</p>
+                            <a href="./pages/services/project-managment.html">SEE MORE 
                                 <span><i class="fa fa-arrow-alt-circle-right"></i></span>
                             </a>
                         </li>
@@ -113,55 +131,38 @@
                     <div id="hidden-cards" class="d-none">
                        
                         <li class="card">
-                            <img src="img/icon-1.png" alt="Service icons" class="sec-img"/>
+                            <div>
+                                <img src="img/seo-service.svg" width="50" alt="">
+                            </div>
                             <p class="card-heading">Seo Services</p>
-                            <p class="card-para">Solution is an easy to use tool all very easy! eCommerce. With the help of our system you can present</p>
-                            <a href="index.html">SEE MORE 
+                            <p class="card-para">Looking for SEO services to grow sales and earn more revenue? Earn top positions in the search engines with pure white-hat SEO and attract new customers for your business.</p>
+                            <a href="./pages/services/seo-service.html">SEE MORE 
                                 <span><i class="fa fa-arrow-alt-circle-right"></i></span>
                             </a>
                         </li> <li class="card">
-                            <img src="img/icon-1.png" alt="Service icons" class="sec-img"/>
-                            <p class="card-heading">Bran Building</p>
-                            <p class="card-para">Solution is an easy to use tool all very easy! eCommerce. With the help of our system you can present</p>
-                            <a href="index.html">SEE MORE 
+                            <div>
+                                <img src="img/brand-building.svg" width="50" alt="">
+                            </div>
+                            <p class="card-heading">Brand Building</p>
+                            <p class="card-para">Your brand identity is how you showcase who you are as a business: your strengths, values, purpose, and of course your products and services.</p>
+                            <a href="./pages/services/brand-building.html">SEE MORE 
                                 <span><i class="fa fa-arrow-alt-circle-right"></i></span>
                             </a>
                         </li>
                         <li class="card">
-                                <img src="img/icon-1.png" alt="Service icons" class="sec-img"/>
+                                <div>
+                                    <img src="img/social-media.svg" width="50" alt="">
+                                </div>
                                 <p class="card-heading">Social Media Marketing</p>
-                                <p class="card-para">Solution is an easy to use tool all very easy! eCommerce. With the help of our system you can present</p>
-                                <a href="index.html">SEE MORE 
+                                <p class="card-para">Social media marketing is a powerful way for businesses of all sizes to reach prospects and customers.</p>
+                                <a href="./pages/services/social-media.html">SEE MORE 
                                     <span><i class="fa fa-arrow-alt-circle-right"></i></span>
                                 </a>
                         </li>
                     </div>
         </article>
     </section>
-    <section class="contactus-sec">
-        <article>
-            <div class="sec-img">
-                <img src="img/contactus-img.png" alt="Contact us image">
-            </div>
-            <div class="form-sec">
-                <form action="">
-                    <h2>Contact Us</h2>
-                    <p>Solution is an easy to use tool for eCommerce. With the help system you can present your products. It is all very easy!</p>
-                    <input type="text" placeholder="Name"/>
-                    <input type="text" placeholder="Company Name"/>
-                    <select>
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4</option>
-                    </select>
-                    <input type="text" placeholder="Phone Number"/>
-                    <input type="text" placeholder="Email"/>
-                    <button class="btn btn-outline-primary">Submit</button>
-                </form>
-            </div>
-        </article>
-    </section>
+   
     <!-- footer -->
     <footer>
         <article class="container">
