@@ -2,6 +2,7 @@ main.static-page {
     padding: 0 15px;
     text-align: center;
     width: 50%;
+    padding-bottom: 30px;
 }
 main.static-page h2 {
     font-size: 30px;
@@ -18,15 +19,16 @@ main.static-page > .static-page-img > img {
     display: block;
     max-width: 100%;
     border-radius: 5px;
+    width: 100%;
 }
-main.static-page h2::after {
+main.static-page.service-page h2::after {
     display: block;
     content: "";
     width: 60px;
     border-bottom: 1px solid #FF5D00;
     margin: auto;
 }
-main.static-page > p {
+main.static-page > .static-page-info{
     font-size: 18px;
     color: #3b566e;
     text-align: justify;

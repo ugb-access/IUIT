@@ -112,12 +112,27 @@ nav {
     bottom: 0;
     left: 15px;
     width: 0px;
-    border-bottom: 2px solid #FF5D00;
+    border-bottom: 2px solid rgb(255, 181, 139);
     transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
 }
-
+.services:hover > .drop-down {
+    display: block;
+}
+.drop-down {
+    display: none;
+    position: absolute;
+    list-style: none;
+    background: #ffff;
+    padding: 20px;
+    border: 1px solid rgb(251, 201, 171);
+    top: 55px;
+    width: 210px;
+}
+.drop-down > li:hover > a {
+    color: #FF5D00;
+}
 .showcase {
     height: 90vh;
     padding-top: 100px;
@@ -190,6 +205,9 @@ nav {
     border: 1px solid #deeefc;
     font-size: 18px;
     list-style: none;
+}
+.card:nth-child(even) {
+    background: url("img/bg-shape-orange-one.png") no-repeat left top;
 }
 .card-heading {
     font-weight: 500;

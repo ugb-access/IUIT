@@ -20,3 +20,9 @@ function seeMore() {
   hideBtn.style.display = "none";
   
 }
+// Open page
+function openWindow() { 
+  
+  window.location.assign("./pages/contact-us.html");
+
+}

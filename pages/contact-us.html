@@ -9,14 +9,25 @@
 </head>
 <body>
     <nav id="nav">
-                <h2 id="logo"><a href="#">IUIT</a></h2>
+                <h2 id="logo"><a href="../index.html">IUIT</a></h2>
                     <ul class="nav-bar">
-                        <li class="current"><a href="../index.html">Home</a></li>
-                        <li><a href="../index.html">Services</a></li>
-                        <li><a href="./pages/contact-us.html">Contact Us</a></li>
-                        <li><a href="../pages/about-us.html">About</a></li>
+                        <li class="current"><a href="../index.html">Home</a>
+                        <li class="services"><a href="../index.html">Services</a>
+                            <ul class="drop-down">
+                                <li><a href="./services/web.html">Web development</a></li>
+                                <li><a href="./services/customer-service.html">Customer Support</a></li>
+                                <li><a href="./services/mobile.html">Mobile Development</a></li>
+                                <li><a href="./services/book-keeping.html">Book Keeping</a></li>
+                                <li><a href="./services/software.html">Software development</a></li>
+                                <li><a href="./services/project-managment.html">Project Managment</a></li>
+                            </ul>
+                        </li>
+                        </li>
+                        
+                        <li><a href="./contact-us.html">Contact Us</a></li>
+                        <li><a href="./about-us.html">About</a></li>
                         <li>
-                            <button class="btn btn-primary" href="index.html">Get Quote</button>
+                            <button class="btn btn-primary" onclick="openWindow()">Get Quote</button>
                         </li>
                     </ul>
     </nav>
